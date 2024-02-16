@@ -1,8 +1,8 @@
-## I Prefer Not To Say: Protecting User Consent In Models with Optional Personal Information (AAAI-24)
+## [I Prefer Not To Say: Protecting User Consent In Models with Optional Personal Information](https://arxiv.org/abs/2210.13954) (AAAI-24)
 **Preliminary Code Version**
 
 This folder contains the code and the data sets to run the experiments described in the paper and our PUC-inducing data augmentation strategy.
-To run this code, only 
+To run this code, we only standard data science python packages are required (we tested with ``python=3.8.8``, ``pandas=1.3.3``, ``scikit-learn=0.24.1``, ``numpy=1.20.1``).
 
 Experiments (subfolder ``experiments``):
   - The first experiment where Attributed Inference Restriction is studied (Table 3) is implemented in ``experiments/experiment1.py``. The performance metrics shown in Table 4a are also produced with this script.
@@ -15,7 +15,7 @@ Other important files:
   - ``utils/pucida.py`` Implementation of both the exhaustive and the stochastic PUC-inducing data augmentation (PUCIDA)
   - The original data sets that we used can be found in the folder ``data``
   
- Software versions used: ``python=3.8.8``, ``pandas=1.3.3``, ``scikit-learn=0.24.1``, ``numpy=1.20.1``. 
+ Software versions used: . 
  
 ## Reference
 
